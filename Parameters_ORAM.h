@@ -6,7 +6,7 @@
 //#define USE_UNIFIED_ORAM					false
 #define MODEL_STASH							false
 #define MODEL_DRAM							false
-#define MODEL_DRAM_HARD							false
+#define USE_DRAMSIM2						false
 
 // inclusive vs excluse ORAM
 #define USE_EXCLUSIVE_ORAM				 	true

@@ -4,7 +4,7 @@ SRC = BinPathORam_test.cpp BinPathORam.cpp HierBinPathORam.cpp UnifiedBinPathORa
 PARAM = -O3 -I. -I$(DRAMSim2) -L$(DRAMSim2) -ldramsim -Wl,-rpath=../../DRAMSim2
 
 all: BinPathORam_test 
-BinPathORam_test: $(SRC)
-	$(CXX) -o $@ $^ $(PARAM)
+BinPathORam_test: $(SRC) *.h
+	$(CXX) -o $@ $(SRC) $(PARAM)
 clean:
 	rm BinPathORam_test

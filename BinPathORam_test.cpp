@@ -133,7 +133,7 @@ int main(int argc, char* argv[])
 			<< "\t-m : max Stash size\n" 
 			<< "\t-w : simulate worst case?\n"
 			<< "\t-r : simulation length\n"
-			<< "\t-i : integrity verification\n"	
+			<< "\t-i : integrity verification\n";	
 		exit(0);
 	}
 

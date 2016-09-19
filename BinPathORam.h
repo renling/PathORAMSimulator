@@ -19,8 +19,9 @@
 #include "Parameters_ORAM.h"
 #include "SimpleCache.h"
 
-#define USE_DRAMSIM2
+#ifdef USE_DRAMSIM2
 #include "DRAMSim.h"
+#endif
 
 using namespace std;
 

@@ -14,3 +14,4 @@ Usage: ./BinPathORam_test test_type arg_list
 	-r : simulation length
 	-i : integrity verification
 
+Parameter_ORAM.h contains more advanced configurations for power users.
