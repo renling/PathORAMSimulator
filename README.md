@@ -2,6 +2,7 @@
 A detailed simulator for Path ORAM stash overflow and DRAM latency model. Includes basic, recursive (hierarchical) and unified.
 
 Usage: ./BinPathORam_test test_type arg_list
+
 	-s : working set in MB
 
 	-S : ORAM tree size in MB, incompatible with -L
